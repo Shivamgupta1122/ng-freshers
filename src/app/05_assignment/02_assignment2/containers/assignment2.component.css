@@ -4,5 +4,14 @@
 }
 
 .active {
-  background-color: #0c5460;
+  background-color: #527e5a71;
+  color : blue;
+  cursor: pointer;
+}
+
+th,td{
+  text-align: center;
+}
+.table-hover tbody tr:hover{
+  background-color: #8b008b71;
 }

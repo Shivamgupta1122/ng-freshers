@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
+  inputValue: string;
 
+  onSubmit(value : string) {
+    this.inputValue = value
+  }
 }

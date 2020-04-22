@@ -8,6 +8,11 @@
     <li class="list-group-item">Display the result on the page via string interpolation</li>
   </ul>
   <div class="container your-code">
-    <h6>Remove this &lt;h3&gt; and create your HTML here</h6>
+    <h3>Assignment - 1 Solution : </h3>
+    <h5>Enter input :</h5>
+    <input type="text" class="form-control" placeholder="Enter some text here:" (input)="onSubmit($event.target.value)"><br>
+    <h5>Entered text appear here :</h5>
+    <input type="text" class="form-control" placeholder="Value from the input field:" value="{{inputValue}}"> 
+  
   </div>
 </div>
